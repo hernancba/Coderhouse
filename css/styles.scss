@@ -1,0 +1,496 @@
+
+/* ajustes generales, luego ajustes particulares/especificos */
+
+/* header */ /*por bloques, por secciones*/
+/* contenido index*/
+ *{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62,5%;
+}
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+  
+    
+}
+.margen-interno{
+    padding: 0 50px;
+}
+.headerInicio{
+    display:flex;
+    background-color:white;
+    padding:2rem 5%;
+    position: fixed;
+    width: 100%;
+    height: 2rem;
+    top:0;
+    left:0;
+    align-items: space-between;
+}
+
+
+.container-fluid{
+    margin-top: 20vh;
+}
+
+.headerInicio h4{
+    display: inline-block;
+    color: black;
+    margin-left: 110px;
+    padding:1rem;
+    text-align: center;
+    
+}
+
+
+.navbar {
+    width: 80%;
+    background-color: white;
+}
+
+.lista-enlaces {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+li{
+    list-style: none;
+}
+
+h1{
+    color:rgb(5, 70, 70);
+    font-style:italic;
+}
+
+.seccionPrimera{
+    color:rgb(55, 104, 9);
+    line-height: 1.6;
+    margin-top: 90px;
+}
+
+a{
+    color: #0072c6;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    background-color:rgb(223, 223, 223);
+  
+}
+
+h2{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+    color: black;
+    margin-left: 110px;
+    
+    text-align: center;
+}
+p{
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.logoTeco{
+    width: 10rem;
+    position: fixed;
+    top: 1.5rem;
+    left: 10px;
+    align-items:center;
+    height: 3rem;
+}
+
+
+
+/*Listas*/
+
+ol{
+    list-style-type: lower-greek;
+    background-color: cadetblue;
+}
+
+ul{
+    list-style-image: url()
+}
+
+/* Tablas */
+
+table
+{   
+    border: 3px solid;
+}
+
+th {
+    background-color:#cccccc;
+    border: 1px solid;
+   }
+  
+   tr, td {
+    border: 1px solid;
+   }
+
+   .galeria{
+    display: flex;
+    margin-top: 9%;
+    width: 100%;
+    
+}
+
+   .daños{
+       display: flex;
+       flex-flow: row wrap;
+       flex: 1 1 auto;
+       justify-content: flex-start;   
+       align-content: center;
+   }
+
+   .daño{
+      
+       border-radius: 5px;
+       border-style: solid;
+       background-color: #F3F2C9;
+       border: 3px solid #055052;
+       border-top: 9px solid #53B8BB;
+       border-style: inset;
+       flex: 0 0 45%;
+       margin: 1rem;
+   }
+
+   .daño div {
+    padding: 1.5rem;
+}
+   footer li{
+    
+    display: inline ;
+    width: 100%;
+}
+
+
+.seccionInicio{
+    background-color: #f7f7f7;
+    display: flex;
+    
+}
+
+.articulos{
+    display: flex;
+    background-color:#f7f7f7;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    margin: 0 0 30px 10px;
+    flex: 2 1 auto;
+    flex-flow: row wrap;
+
+    
+
+
+.articulo{
+    background:#ececec;
+    flex: 1 1 35%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size:13px;
+    letter-spacing: 1px;
+    margin: 10px 10px 0 0 ;
+    
+    box-shadow: 6px 4px 5px 1px rgba(0,0,0,0.57); 
+    position: relative;
+
+    
+
+    .articulo:hover img {
+        opacity: 0.3;
+    }
+
+    [class*=" imghvr-"] figcaption {
+    
+        background-color: transparent ;
+        
+    }
+    
+    [class*=" imghvr-"] figcaption a {
+        
+        background-color: transparent ;
+        
+    }
+
+    .gradient{
+        background: rgb(0,176,234);
+    background: linear-gradient(90deg, rgba(0,176,234,1) 0%, rgba(34,83,128,1) 35%, rgba(221,37,52,1) 100%);
+    }
+
+    .btn {
+        border: 2px solid black;
+        background-color: white;
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        border-color: #2196F3;
+        color: dodgerblue
+      }
+
+      .btn:hover {
+        background: #2196F3;
+        color: white;
+      }
+
+            
+      .image {
+        opacity: 1;
+        display: block;
+        object-fit: cover;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .contenedor:hover .image {
+        opacity: 0.3;
+      }
+      
+      .contenedor:hover .middle {
+        opacity: 1;
+      }
+      
+      .text {
+        background-color: #04AA6D;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+    
+}
+
+}
+
+
+.aside{
+    display: flex;
+    background-color:#f7f7f7;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    margin: 0 0 30px 10px;
+   
+    flex:1 1 auto;
+    flex-flow: column nowrap;
+    width:40%;
+
+     .img{
+        /* width: 100%;
+        height: 70%; */
+    
+        object-fit: contain;
+    }
+    .infoUtil{
+        background:#ececec;
+        /* flex: 1 1 45%; */
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        font-size:13px;
+        letter-spacing: 1px;
+        margin: 10px 10px 0 0 ;
+        box-shadow: 6px 4px 5px 1px rgba(0,0,0,0.57);
+    
+    }
+}
+
+
+
+.cajasIndex:hover{
+    border:1px solid #1668c4;
+}
+
+
+.seccionObjetivo{
+    display: flex;
+    margin-top:6rem;
+    align-items: center;
+    
+
+}
+.cajaObjetivo{
+    margin-top: 1rem;
+    margin: 10px;
+    margin-right: 0px;
+    width:100%;
+    height: 20%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 100%, rgba(255,255,255,1) 100%);  
+    border: 3px solid #1668c4;
+    border-style:solid;
+    line-height: 1.6;
+    border-radius: 10px;
+    box-shadow: 6px 4px 5px 1px rgba(0,0,0,0.57);
+    
+    
+ 
+
+}
+
+.cajaObjetivo h3{
+    color:rgb(184, 3, 3) ;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link{
+    
+    margin-right: 1.2rem;
+    position: relative;
+   
+    
+}
+
+.link:hover{
+    background-color: white;
+}
+.link:hover a {
+    
+    background-color: none;
+    color: grey;
+}
+
+.sub-lista-enlaces{
+   
+    display: none ;
+    position:absolute;
+    top: 2rem;
+    left:0;
+    background-color: white;
+    width: 150%;
+}
+
+
+
+.link:hover .sub-lista-enlaces{
+    display: block;
+}
+
+.navbar ul li::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #4a88f4;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+.navbar .link:hover::before{
+    width: 100%;
+}
+
+.contenedorTratamiento{
+    margin-top: 10%;
+}
+
+.contenedorRG{
+    margin-top: 5%;
+}
+
+.contenedorDaños{
+    margin-top: 4%;
+}
+
+form{
+    width: 25%;
+    border:1px solid #ccc;
+    margin:20px;
+    padding:20px;
+}
+
+label{
+    font-size: 20px;
+    display: block;
+    width: 100%;
+}
+
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding:10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus{
+    border:1px solid #1668c4;
+}
+
+input[type="submit"]{
+    margin-bottom: 0;
+    background: #1668c4;
+    border:none;
+}
+
+input[type="submit"]:hover{
+    
+    background: #4a88f4;
+    
+}
+
+
+input[type="reset"]:hover{
+    
+    background:grey;
+    
+}
+
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    background-color:white;
+  
+    background-repeat:no-repeat;
+    background-position: cover;
+    justify-content: left;
+   
+    
+ 
+}
+
+.footer img{ 
+    object-fit: contain;
+    width: 50%;
+    background-color: white;}
+
+
+  
+
+
+ 

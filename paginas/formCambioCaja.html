@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Tratamiento de OT</title>
+</head>
+
+<body>
+    <!--ver carga como web pedidos ya   -->
+    <header class="headerInicio">
+        <!-- <img src="img/Telecom_logo_nuevo.jpg" class="logoTeco"alt=""> -->
+        <!-- <h1>Portal para Tecnicos de Cobre</h1> -->
+        <a href="/index.html"><img src="/img/tecoLogo.png" class="logoTeco" alt="" width="40px" height="80px"></a>
+        <h2>Portal Tecnico</h2>
+
+        <nav class="navbar">
+
+            <ul class="lista-enlaces">
+                <li class="link"><a href="daños.html">Daños Actuales</a></li>
+                <li class="link"><a href="">Tratamiento de OT ▼</a>
+                    <ul class="sub-lista-enlaces">
+                        <li class="sub-link"><a href="formZP.html">Zona Peligrosa</a></li>
+                        <li class="sub-link"><a href="formPoste.html">Cambio de Poste</a></li>
+                        <li class="sub-link"><a href="formCambioCaja.html">Cambio de ter</a></li>
+                </li>
+
+            </ul>
+
+            <li class="link"><a href="infoRg.html">Info RG y Equipos</a></li>
+            <li class="link"><a href="unidadMovil.html">Unidad Movil ▼</a>
+                <ul class="sub-lista-enlaces">
+                    <li class="sub-link"><a href="">Ticket Lavado</a></li>
+                    <li class="sub-link"><a href="">Chequeo gral</a></li>
+
+            </li>
+
+            </ul>
+        </nav>
+        <img src="img/WhatsApp-logo.png" alt="" class="wsp">
+
+
+    </header>
+
+    
+    <div class="contenedorTratamiento">
+
+        <h3>Solicitud para cambio de Caja Terminal</h3>
+        <form action="">
+            <label for="">CENTRAL: </label> <br>
+            <input type="text" placeholder="Escriba su respuesta" required><br>
+            <label for="">ZONA:</label><br>
+            <input type="text" placeholder="Escriba su respuesta" required><br>
+            <label for="">TER: </label> <br>
+            <input type="text" placeholder="Escriba su respuesta" required><br>
+            <label for="">DIRECCION: </label> <br>
+            <input type="text" placeholder="Escriba su respuesta" required><br>
+            <label for="">TIPO: </label> <br>
+            <select name="tipoTerminal" required>
+
+                <option>3M con XAGA</option>
+
+                <option>3M con TAPA VENTILADA</option>
+
+                <option>BLANCOS (Cualquier marca)</option>
+
+                <option>Otras</option>
+
+            </select> <br>
+            <label for="">FOTO (Foto o captura de MAPs CON COORDENADAS que ayude a localizar): </label> <br>
+            <input type="file" name="imagen" required><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+
+        </form>
+    </div>
+    
+</body>
+
+</html>

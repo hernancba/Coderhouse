@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.padre {
+  display: flex;
+  align-content: space-between;
+  align-items: flex-start;
+}
+
+.header {
+  display: flex;
+  background-color: #75d0f1;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.header .header-icono {
+  margin-left: 70px;
+  margin-right: 0px;
+}
+
+.header .header-icono a {
+  color: #212529;
+}
+
+.header h2 {
+  font-family: 'Fredoka One', cursive;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.header div {
+  align-self: center;
+  margin-right: 80vh;
+}
+
+.header img {
+  margin-left: 30px;
+}
+
+.navbar {
+  background-color: #f6c24a;
+  min-height: 200vh;
+  width: 260px;
+  display: flex;
+  align-content: flex-start;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6ec7e;
+  margin-left: 0;
+  padding-left: 0.5px;
+}
+
+.navbar ul li {
+  padding: 10px;
+}
+
+.navbar ul div {
+  margin: 10px 10px 0 0;
+  text-align: center;
+  width: 150px;
+}
+
+.navbar ul i {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar .navbar__link {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #f6c24a;
+}
+
+.contenedor-curso {
+  display: flex;
+  flex-direction: ROW;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedor-curso .tarjeta-curso {
+  width: 300px;
+  padding: 10px;
+  margin-LEFT: 15PX;
+  margin-top: 15px;
+  flex: 1 1 auto;
+}
+
+.contenedor-curso .tarjeta-curso .img {
+  max-width: 300px;
+}
+
+.contenedor-curso .tarjeta-curso p {
+  font-family: 'Roboto', sans-serif;
+  width: 300px;
+  text-align: justify;
+}
+/*# sourceMappingURL=estilos.css.map */
