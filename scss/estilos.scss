@@ -10,6 +10,9 @@
     align-items: flex-start;
     
 }
+
+
+
 .header{
     display: flex;
     background-color: rgb(117, 208, 241);
@@ -20,14 +23,16 @@
     
     
    .header-icono{
-    margin-left: 70px;
+    margin-left: 110px;
     margin-right: 0px;
     
     
     a{
         color: #212529;
+        
+
+      
     }
-    
     
     
        
@@ -49,6 +54,7 @@
 
     img{
         margin-left: 30px;
+
     }
     
     
@@ -57,7 +63,7 @@
 .navbar{
     background-color: #f6c24a;
     min-height: 200vh;
-      width:260px;
+      
       display: flex;
       align-content: flex-start;
 
@@ -69,13 +75,21 @@
          
           margin-left: 0;
           padding-left: 0.5px;
+          width: 250px;
+          
           
           
          li{
             
              padding: 10px;
+
+             
+
+           
              
          }
+
+        
           div{
               margin: 10px 10px 0 0 ;
               
@@ -83,13 +97,18 @@
               width: 150px;
               
               
+              
           }
 
-          i{
-              margin-bottom: 10px;
-              margin-top: 10px;
-          }
+         
+         
       }
+
+      i{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
       .navbar__link{
         margin: 0;
         list-style: none;
@@ -97,31 +116,42 @@
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
          font-weight: 900;
-       border-bottom-width: 2px;
+       border-bottom-width: 3px;
         border-bottom-style: solid ;
         border-bottom-color: #f6c24a;
-    
-                
-    }
+        text-align: center;
+        letter-spacing: 2px;
+       
+
+        
+
+        
+   
         
             
             }
+        }
+           
+
+           
 .contenedor-curso{
-               display: flex;
-               flex-direction: ROW;
-               flex-wrap: wrap;
-               justify-content: space-around;
+              display: FLEX;
+              flex-flow: ROW nowrap;
+              margin-left: 20PX;
+              margin-TOP: 10PX;
                
                .tarjeta-curso{
-                   width: 300px;
+                //    width: 300px;
                    
                    padding: 10px;
-                   margin-LEFT: 15PX;
-                   margin-top: 15px;
-                   flex: 1 1 auto;
+                   margin-right: 10px;
+                   
+               
                    
                 .img{
-                       max-width: 300px;
+                       max-width: 450px;
+                       height: 250PX;
+                       
                        
                        
                    }
@@ -138,3 +168,54 @@
 
                
            }
+
+           .nav-tabs .nav-link.active {
+            background-color: #f6c24a;
+        }
+
+        .nav-link {
+            display: block;
+            padding: .5rem 1rem;
+            color: black;
+            text-decoration: none;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        }
+
+    
+
+
+        @media (max-width:800px){
+
+            .contenedor-curso {
+                display: FLEX;
+                flex-flow: COLUMN;
+                margin-left: 20PX;
+                margin-TOP: 10PX;
+            }
+
+            .header .header-icono {
+                margin-left: 90PX;
+                margin-right: 0px;
+                
+            }
+
+            .header {
+                display: flex;
+                background-color:white;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+            }
+
+
+
+
+
+
+
+
+
+
+
+        }
+        
