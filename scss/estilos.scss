@@ -189,15 +189,48 @@
             .contenedor-curso {
                 display: FLEX;
                 flex-flow: COLUMN;
-                margin-left: 20PX;
-                margin-TOP: 10PX;
+                margin-left: 0px;
+                margin-TOP: 0px;
+
+                .tarjeta-curso{
+                    padding: 0px;
+                    margin-bottom: 10px;
+                    
+                    
+
+                   
+                
+
+                    
+                }
+
+                
             }
 
-            .header .header-icono {
-                margin-left: 90PX;
+            .navbar{
+                width: 25%;
+                margin-right: 5px;
+                
+            }
+            .navbar ul{
+                width: 0%;
+            }
+
+            .header {
+
+                IMG{
+                   
+                    margin-left: 0px;
+                    
+                }
+            
+              .header-icono {
+                margin-left: 15PX;
                 margin-right: 0px;
                 
             }
+
+        }
 
             .header {
                 display: flex;
@@ -205,6 +238,12 @@
                 align-items: center;
                 justify-content: space-between;
                 flex-direction: row;
+            }
+
+            .navbar .navbar__link {
+                
+                width: 10%;
+
             }
 
 

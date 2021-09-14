@@ -64,11 +64,6 @@ li {
   list-style: none;
 }
 
-h1 {
-  color: #054646;
-  font-style: italic;
-}
-
 .seccionPrimera {
   color: #376809;
   line-height: 1.6;
@@ -589,5 +584,8 @@ input[type="reset"]:hover {
   .footer .hr {
     width: 0%;
   }
+
+ 
 }
+
 /*# sourceMappingURL=styles.css.map */

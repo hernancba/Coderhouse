@@ -6,28 +6,24 @@ body{
 }
 
 .headerHerramientas{
-    display: flex;
+    display:flex;
     background-color:white;
-    /* padding:2rem 5%; */
+    padding:2rem 5%;
     position: fixed;
-    width: 100vw;
-    height: 6rem;
-    top:0;
-    justify-content: space-between;
-    z-index:10;
+    width: 100%;
+    height:90px;
+    margin-top: -10px;
+    left:0;
+    align-items: space-between;
+    z-index: 10;
 
     h2{
-        font-size: 1rem;
-        font-family: 'Roboto', sans-serif;
-        margin-top: 2rem;
-        margin-left: 170px;
-    
-        color: black;
+        margin-top: 10px;
+        margin-left: 90px;
         
-        text-align: center;
-        align-items: center;
     }
-}
+    }
+
 
 .navbar {
     width: 80%;
@@ -153,7 +149,7 @@ ul{
 }
 
 .container-fluid{
-    margin-top: 20vh;
+    margin-top: 100px !important;
 }
 
 .logoTeco{
@@ -180,4 +176,17 @@ ul{
 
 .card:hover{
     border: #cccccc;
+}
+
+@media (max-width:800px){
+    .lista-enlaces {
+        
+        flex-direction: column;
+    }
+
+    .container-fluid {
+      
+        margin-top: 250px !important;
+    }
+
 }
