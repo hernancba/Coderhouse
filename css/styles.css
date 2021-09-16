@@ -584,8 +584,20 @@ input[type="reset"]:hover {
   .footer .hr {
     width: 0%;
   }
-
- 
+  .galeria {
+    display: flex;
+    margin-top: 51%;
+    width: 100%;
+  }
+  .daño {
+    border-radius: 5px;
+    background-color: #f3f2c9;
+    border-width: 9px 3px 3px;
+    border-color: #53b8bb #055052 #055052;
+    border-image: initial;
+    border-style: inset;
+    flex: 1 1 auto;
+    margin: 1rem;
+  }
 }
-
 /*# sourceMappingURL=styles.css.map */

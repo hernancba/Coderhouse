@@ -690,7 +690,23 @@ input[type="reset"]:hover{
             }
            
         }
+
+        .galeria {
+            display: flex;
+            margin-top: 51%;
+            width: 100%;
+        }
         
+        .daño {
+            border-radius: 5px;
+            background-color: rgb(243, 242, 201);
+            border-width: 9px 3px 3px;
+            border-color: rgb(83, 184, 187) rgb(5, 80, 82) rgb(5, 80, 82);
+            border-image: initial;
+            border-style: inset;
+           flex: 1 1 auto;
+            margin: 1rem;
+        }
         
     }
 
