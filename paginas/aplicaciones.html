@@ -13,59 +13,63 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         
         <link href="../css/styles2.css" rel="stylesheet" />
-        <link href="../css/styles.css" rel="stylesheet" />
+      
+        <link rel="stylesheet" href="../scss/estilosApps.css">
         
     </head>
     <body>
         <!-- Navigation-->
+  
+        <header class="headerApps">
+
+            <a href="../index.html"><img src="../img/tecoLogo.png" class="logoTeco animate__animated animate__backInDown" alt=""
+                    width="40px" height="80px"></a>
       
-        <nav class="navbar" style="width: 100%; height: 5rem; position: fixed; z-index: 10; flex: none;">
-
-            <a href="../index.html"><img src="../img/tecoLogo.png" class="logoTeco" alt=""width="40px" height="80px"></a>
-
-           
-
-            
-
-            <ul class="lista-enlaces">
-                <h2>  Portal Tecnico</h2>
-                
-                
-                <li class="link"><a href="daños.html">Daños Actuales</a></li>
-                <li class="link"><a href="">Tratamiento de OT ▼</a>
+            <h2 class="animate__animated animate__backInDown">Portal Tecnico</h2>
+      
+            <nav class="navbar" style="padding-top: 0%;">
+      
+                <ul class="lista-enlaces animate__animated animate__backInDown">
+                    <li class="link"><a href="/paginas/daños.html">Daños Actuales</a></li>
+                    <li class="link"><a href="">Tratamiento de OT ▼</a>
+                        <ul class="sub-lista-enlaces">
+      
+                            <li class="sub-link"><a href="/paginas/formZP.html">Zona Peligrosa</a></li>
+                            <li class="sub-link"><a href="/paginas/formPoste.html">Cambio de Poste</a></li>
+                            <li class="sub-link"><a href="/paginas/formCambioCaja.html">Cambio de ter</a></li>
+      
+                    </li>
+      
+                </ul>
+      
+                <li class="link"><a href="/paginas/infoRg.html">Info RG y Equipos</a></li>
+                <li class="link"><a href="/paginas/herramientas.html">Herramientas</a>
                     <ul class="sub-lista-enlaces">
-
-                        <li class="sub-link"><a href="formZP.html">Zona Peligrosa</a></li>
-                        <li class="sub-link"><a href="formPoste.html">Cambio de Poste</a></li>
-                        <li class="sub-link"><a href="formCambioCaja.html">Cambio de ter</a></li>
-
+                        <!-- <li class="sub-link"><a href="">Ticket Lavado</a></li>
+                            <li class="sub-link"><a href="">Chequeo gral</a></li> -->
+      
                 </li>
-
-            </ul>
-
-            <li class="link"><a href="infoRg.html">Info RG y Equipos</a></li>
-            <li class="link"><a href="herramientas.html">Herramientas</a>
-                <ul class="sub-lista-enlaces">
-                    <!-- <li class="sub-link"><a href="">Ticket Lavado</a></li>
-                        <li class="sub-link"><a href="">Chequeo gral</a></li> -->
-
-            </li>
-
-            </ul>
-        </nav>
+      
+                </ul>
+            </nav>
+      
+      
+        </header>
         <!-- Header-->
-        <header  style="" class="bg-secondary py-5">
+        <div style="background-image: url(/img/app2.jfif); background-size: cover;" class="bg-secondary py-5" >
             
-            <div  class="bg-image container px-4 px-lg-5 my-5">
-                <div class="text-center text-white ">
-                    <h1 class="display-4 fw-bolder">Aplicaciones Utiles</h1>
+            <div  class="bg-image container px-4 px-lg-5 my-5" >
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Aplicaciones Útiles</h1>
+                    
                     <p class="lead fw-normal text-white-50 mb-0"> </p>
                 </div>
             </div>
-        </header>
-        <div style="width: 100vw; height: 30vh; background-color: khaki;">
-            <img src="../img/app2.jfif" style="object-fit: cover; height: 30vh; width:100vw;" alt="">
         </div>
+        <!-- <div style="width: 100vw; height: 30vh; background-color: khaki;">
+            <img src="../img/app2.jfif" style="object-fit: cover; height: 30vh; width:100vw;" alt="">
+            
+        </div> -->
         <!-- Section-->
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
@@ -85,14 +89,14 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Acceder</a></div>
+                                <div class="text-center"><a class="btn btn-outline-primary mt-auto" href="#">Acceder</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nueva</div>
+                            <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nueva</div>
                             <!-- Product image-->
                             <img class="card-img-top" src="../img/speedtest.webp" alt="..." />
                             <!-- Product details-->
@@ -109,14 +113,14 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Acceder</a></div>
+                                <div class="text-center"><a class="btn btn-outline-primary mt-auto" href="#">Acceder</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nueva</div>
+                            <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nueva</div>
                             <!-- Product image-->
                             <img class="card-img-top" src="../img/ANALIZER.webp" alt="..." />
                             <!-- Product details-->
@@ -131,7 +135,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Acceder</a></div>
+                                <div class="text-center"><a class="btn btn-outline-primary mt-auto" href="#">Acceder</a></div>
                             </div>
                         </div>
                     </div>
@@ -152,14 +156,14 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Acceder</a></div>
+                                <div class="text-center"><a class="btn btn-outline-primary mt-auto" href="#">Acceder</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nueva</div>
+                            <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nueva</div>
                             <!-- Product image-->
                             <img class="card-img-top" src="../img/antena.webp" alt="..." />
                             <!-- Product details-->
@@ -173,7 +177,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Acceder</a></div>
+                                <div class="text-center"><a class="btn btn-outline-primary mt-auto" href="#">Acceder</a></div>
                             </div>
                         </div>
                     </div>
@@ -192,14 +196,14 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Acceder</a></div>
+                                <div class="text-center"><a class="btn btn-outline-primary mt-auto" href="#">Acceder</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nueva</div>
+                            <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nueva</div>
                             <!-- Product image-->
                             <img class="card-img-top" src="../img/anny.webp" alt="..." />
                             <!-- Product details-->
@@ -215,7 +219,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Acceder</a></div>
+                                <div class="text-center"><a class="btn btn-outline-primary mt-auto" href="#">Acceder</a></div>
                             </div>
                         </div>
                     </div>
@@ -234,7 +238,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Acceder</a></div>
+                                <div class="text-center"><a class="btn btn-outline-primary mt-auto" href="#">Acceder</a></div>
                             </div>
                         </div>
                     </div>
@@ -242,7 +246,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        <footer class="py-5 bg-primary">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
         </footer>
         <!-- Bootstrap core JS-->

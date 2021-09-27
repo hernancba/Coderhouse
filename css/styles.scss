@@ -60,6 +60,11 @@ html{
     background-color: white;
 }
 
+
+
+
+
+
 .lista-enlaces {
     display: flex;
     justify-content: space-evenly;
@@ -193,6 +198,7 @@ th {
 .seccionInicio{
     background-color: #f7f7f7;
     display: flex;
+    margin-top: 6rem;
     
 }
 
@@ -655,7 +661,7 @@ input[type="reset"]:hover{
         }
 
             .seccionInicio{
-                margin-top: 95px;
+                margin-top: 12rem;
                 flex-direction: column;
         
                 .articulos {
@@ -706,9 +712,22 @@ input[type="reset"]:hover{
             border-style: inset;
            flex: 1 1 auto;
             margin: 1rem;
+
         }
+
+        .contenedorRG{
+            margin-top: 12rem;
+                         
+        }
+
+       
+            
+          
+        }
+
+      
         
-    }
+    
 
     
 

@@ -5,7 +5,7 @@ body{
   
 }
 
-.headerHerramientas{
+.headerApps{
     display:flex;
     background-color:white;
     padding:2rem 5%;
@@ -18,8 +18,9 @@ body{
     z-index: 10;
 
     h2{
-        margin-top: 10px;
-        margin-left: 90px;
+        margin-top: 10px ;
+        margin-left: 100px ;
+        font-size: 15px;
         
     }
     }
@@ -148,9 +149,7 @@ ul{
     width: 100%;
 }
 
-.container-fluid{
-    margin-top: 100px !important;
-}
+
 
 .logoTeco{
     width: 10rem;
@@ -161,16 +160,6 @@ ul{
     height: 3rem;
 }
 
-.card img {
-    max-height: 200px;
-    object-fit: cover;
- }
-
- .card{
-    padding:10px;
-    margin:0px;
-    
-}
 
 
 
@@ -181,16 +170,51 @@ ul{
 @media (max-width:800px){
     .lista-enlaces {
         
-        flex-direction: column;
+        flex-direction: column;      
+        text-transform: uppercase;   
+        padding: 10px;
+        
     }
 
-    .container-fluid {
+    .row-cols-2 > * {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .bg-secondary {
+        margin-top: 17rem;
+    }
+
+    .logoTeco{
+        position: relative;
+    }
+
+    .headerApps{
+       display: inline;
+       left: 0;
+       top: 0;
+       height: auto;
+
+       h2{
+           margin-top: 0;
+           margin-left: 10rem;
+           position: relative;
+       }
       
-        margin-top: 250px !important;
+
+
+}
+
+.navbar{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+
+    li{
+        margin-bottom: 5px;
     }
 
-    .card{
-        width: 100% !important;
-    }
-
+   
+}
 }

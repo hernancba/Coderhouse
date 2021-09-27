@@ -171,6 +171,7 @@ footer li {
 .seccionInicio {
   background-color: #f7f7f7;
   display: flex;
+  margin-top: 6rem;
 }
 
 .articulos {
@@ -564,7 +565,7 @@ input[type="reset"]:hover {
     z-index: 15;
   }
   .seccionInicio {
-    margin-top: 95px;
+    margin-top: 12rem;
     flex-direction: column;
   }
   .seccionInicio .articulos {
@@ -598,6 +599,9 @@ input[type="reset"]:hover {
     border-style: inset;
     flex: 1 1 auto;
     margin: 1rem;
+  }
+  .contenedorRG {
+    margin-top: 12rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
