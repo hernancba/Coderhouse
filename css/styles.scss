@@ -720,6 +720,28 @@ input[type="reset"]:hover{
                          
         }
 
+        .contenedorTratamiento {
+            
+            h3 {
+           
+            margin-top: 13rem;
+            font-size: 15px;
+        }
+
+        form{
+            width: 80%;
+           label{
+               font-size: 15px;
+               margin-bottom: 10px;
+           }
+            
+           select{
+            width: 100%;
+            margin-bottom: 15px;
+           }
+        }
+    }
+
        
             
           

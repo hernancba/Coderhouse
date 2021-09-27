@@ -603,5 +603,20 @@ input[type="reset"]:hover {
   .contenedorRG {
     margin-top: 12rem;
   }
+  .contenedorTratamiento h3 {
+    margin-top: 13rem;
+    font-size: 15px;
+  }
+  .contenedorTratamiento form {
+    width: 80%;
+  }
+  .contenedorTratamiento form label {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .contenedorTratamiento form select {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
