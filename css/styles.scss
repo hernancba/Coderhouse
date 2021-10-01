@@ -1,9 +1,5 @@
 
-/* ajustes generales, luego ajustes particulares/especificos */
-
-/* header */ /*por bloques, por secciones*/
-/* contenido index*/
- *{
+*{
     margin:0;
     padding:0;
 }
@@ -171,18 +167,28 @@ th {
        flex: 1 1 auto;
        justify-content: flex-start;   
        align-content: center;
+       margin-top: -1rem;
    }
 
    .daño{
       
        border-radius: 5px;
        border-style: solid;
-       background-color: #F3F2C9;
-       border: 3px solid #055052;
-       border-top: 9px solid #53B8BB;
+       background-color: #EAF2F8;
+       border: 3px solid rgba(0,176,234,1);
+       border-top: 9px solid #00b0ea;
        border-style: inset;
        flex: 0 0 45%;
        margin: 1rem;
+       
+      
+
+       img{
+           width: 700;
+           height: 200;
+           object-fit: cover;
+           
+       }
    }
 
    .daño div {
@@ -611,6 +617,25 @@ input[type="reset"]:hover{
     background-repeat:no-repeat;
     background-position: cover;
     justify-content: left;
+
+    .container{
+        background-color: #0D6EFD;
+        width: 100%;
+        height: 90;
+        
+        
+        
+
+        p{  color: white;
+            font-size: 20px;
+            margin: auto;
+            text-align: center;
+            font: 1em sans-serif;
+            position: relative;
+            top: 50%;
+
+        }
+    }
    
     
  
@@ -670,7 +695,8 @@ input[type="reset"]:hover{
 
                     .articulo {
                         margin-bottom: 10px;
-                        
+
+                     
                         
                         img{
                         width: 350px;
@@ -682,7 +708,7 @@ input[type="reset"]:hover{
             }
 
             .aside{
-                width: 95%;
+                width: 90%;
             }
         
         
@@ -699,19 +725,29 @@ input[type="reset"]:hover{
 
         .galeria {
             display: flex;
-            margin-top: 51%;
+            margin-top: 60%;
             width: 100%;
         }
         
         .daño {
             border-radius: 5px;
-            background-color: rgb(243, 242, 201);
-            border-width: 9px 3px 3px;
-            border-color: rgb(83, 184, 187) rgb(5, 80, 82) rgb(5, 80, 82);
+            background-color: #EAF2F8;
+            border: 3px solid rgba(0,176,234,1);
+            border-top: 9px solid #00b0ea;
             border-image: initial;
             border-style: inset;
            flex: 1 1 auto;
             margin: 1rem;
+
+            img{
+
+                width: 350;
+                height: 200;
+                object-fit: cover;
+
+            }
+
+           
 
         }
 
