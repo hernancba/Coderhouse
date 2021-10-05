@@ -154,10 +154,11 @@ tr, td {
   border-style: inset;
   flex: 0 0 45%;
   margin: 1rem;
+  width: 200px;
 }
 
 .daño img {
-  width: 700;
+  width: 100%;
   height: 200;
   object-fit: cover;
 }
@@ -620,7 +621,7 @@ input[type="reset"]:hover {
     margin: 1rem;
   }
   .daño img {
-    width: 350;
+    width: 100%;
     height: 200;
     object-fit: cover;
   }
